@@ -1,0 +1,99 @@
+a:hover {
+  color: inherit !important;
+}
+
+
+.title {
+  font-size: 45px;
+  // font-family: 'Ultra', sans-serif;
+  font-family: 'Holtwood One SC', sans-serif;
+}
+
+
+.icon {
+  stroke: #dc6216;
+  width: 45px;
+  height: 45px;
+}
+
+
+.number {
+  height: 130px;
+  width: auto;
+  left: 270px;
+  top: 10px;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  .img-cta {
+    margin-right: -2rem;
+
+    @media (max-width: 62em){
+      margin-right: 0;
+    }
+  }
+
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:rgb(37, 211, 102);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    z-index:100;
+
+    &:hover {
+      color: #dc6216;
+    }
+  }
+  
+  .my-float{
+    margin-top:16px;
+  }
+
+  .bg-orange {
+    background-color: rgb(220, 98, 22);
+  }
+
+  .cta {
+    background-image: linear-gradient(to right bottom, rgba(17, 211, 102,0.8), rgba(23, 98, 12, 0.57)),url(/assets/img/pelota.jpg);
+    background-size: cover;
+  }
+
+a:hover {
+  text-decoration: none !important;
+}
+
+
+  @media only screen and (max-width: 62em){
+    .img-cta{
+      margin-right: 0;
+    }
+  }
+
+//   @media only screen and (min-width: 62em){
+
+//     .img-header{
+//       height: 90% !important; 
+//       width: auto !important;
+//     }
+// }
+
